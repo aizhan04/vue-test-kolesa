@@ -12,6 +12,7 @@
         "jest/globals": true
     },
     "rules": {
+        "prettier.singleQuote": true,
         "max-len": [
             "error",
             120,
@@ -20,6 +21,7 @@
                 "ignoreComments": true
             }
         ],
+
         "func-names": [
             "error",
             "never"
